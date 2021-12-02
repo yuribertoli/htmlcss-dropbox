@@ -45,9 +45,49 @@ header div {
     float: right;
     background-color: lightcyan;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+}
 /* Fine regole header */
 
 /* Inizio regole jumbotron */
+section.jumbotron {
+    width: 100%;
+    height: 500px;
+    float: left;
+    background-color: lightgreen;
+}
+
+.jumbotron div.container {
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.jumbotron-top {
+    width: 100%;
+    height: 150px;
+    background-color: lightyellow;
+}
+
+.jumbotron-left, .jumbotron-img {
+    float: left;
+}
+
+.jumbotron-left {
+    height: 350px;
+    width: 35%;
+    background-color: lightslategray;
+}
+
+.jumbotron-img {
+    height: 350px;
+    width: 65%;
+    background-color: lightsteelblue;
+}
 /* Fine regole jumbotron */
 
 /* Inizio regole main */
