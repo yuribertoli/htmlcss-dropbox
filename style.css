@@ -91,6 +91,8 @@ section.jumbotron {
 /* Fine regole jumbotron */
 
 /* Inizio regole main */
+
+    /* Inizio prima pagina */
 .top-firstpage {
     width: 100%;
     height: 200px;
@@ -111,6 +113,36 @@ section.jumbotron {
     height: 100px;
     background-color: lightgreen;
 }
+    /* Fine prima pagina */
+
+    /* Inizio seconda pagina */
+.secondpage {
+    margin: 100px 0;
+}
+
+.secondpage div {
+    float: left;
+}
+
+.img-secondpage {
+    width: 55%;
+    height: 250px;
+    background-color: lightskyblue;
+}
+
+.text-secondpage {
+    width: 45%;
+    height: 250px;
+    background-color: lightgrey;
+}
+
+.secondpage .title-allpage {
+    width: 100%;
+    height: 100px;
+    margin: 100px 0;
+    background-color: lightblue;
+}
+
 /* Fine regole main */
 
 /* Inizio regole footer */
