@@ -1,0 +1,28 @@
+/* Inizio regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* Fine regole generali */
+
+/* Inizio regole header */
+/* Fine regole header */
+
+/* Inizio regole jumbotron */
+/* Fine regole jumbotron */
+
+/* Inizio regole main */
+/* Fine regole main */
+
+/* Inizio regole footer */
+/* Fine regole footer */
+
