@@ -31,7 +31,7 @@ nav {
     vertical-align: middle;
 }
 
-nav ul {
+ul {
     list-style: none;
 }
 
@@ -179,14 +179,105 @@ section.jumbotron {
     text-align: center;
 }
 
-.central-firstpage div span {
+div.options div.content-options {
+    margin: 0;
+    text-align: left;
+}
+
+.central-firstpage div span.users-option {
     display: block;
     padding: 10px 0;    
 }
 
-div.options div.content-options {
-    margin: 0;
+.content-options {
+    padding: 20px 20px 80px 20px;
+} 
+
+.content-options h3 {
+    font-size: 1.5rem;
 }
+
+.content-options span {
+    display: block;
+}
+
+.prices {
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+.periodo-fatturazione {
+    color: rgb(121, 121, 121);
+    font-size: 0.8rem;
+}
+
+    /* Prima lista */
+ul.first-list li {
+    font-size: 2rem;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+ul.first-list li span {
+    font-size: 0.8rem;
+    margin-left: -3px;
+}
+
+ul.first-list .user{
+    list-style-image: url('img/user-regular.svg');
+}
+
+ul.first-list .folder{
+    list-style-image: url('img/folder-regular.svg');
+}
+
+ul.first-list .pencil{
+    list-style-image: url('img/pencil-alt-solid.svg');
+}
+
+.content-options a.button {
+    display: inline-block;
+    margin: 40px 0 20px;
+}
+
+.content-options span.buynow {
+    font-size: 0.8rem;
+}
+
+.content-options span.buynow a {
+    color: blue;
+}
+
+.content-options hr {
+    width: 20%;
+    margin: 20px 0;
+    color: rgb(196, 194, 194);
+}
+
+.content-options h4 {
+    margin-bottom: 20px;
+}
+
+    /* Seconda lista */
+ul.second-list {
+    list-style-image: url(img/check-solid.svg);
+}
+
+ul.second-list li {
+    font-size: 2rem;
+    margin-left: 20px;
+    padding-top: 10px;
+    color: blue;
+}
+
+ul.second-list li span{
+    font-size: 0.8rem;
+    margin-left: -3px;
+    color: black;
+}
+
+
+
 
 
 
