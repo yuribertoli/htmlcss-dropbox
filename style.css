@@ -18,6 +18,13 @@ html {
     content: "";
     clear: both;
 }
+
+.row33 > div {
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    border: 1px solid black;
+}
 /* Fine regole generali */
 
 /* Inizio regole header */
@@ -101,11 +108,8 @@ section.jumbotron {
 }
 
 .central-firstpage div {
-    float: left;
-    width: 33.33%;
     height: 350px;
     margin: 20px 0 50px;
-    border: 1px solid black;
 }
 
 .bottom-firstpage {
@@ -120,17 +124,17 @@ section.jumbotron {
     margin: 100px 0;
 }
 
-.secondpage div {
+.box-img div {
     float: left;
 }
 
-.img-secondpage {
+.img-55 {
     width: 55%;
     height: 250px;
     background-color: lightskyblue;
 }
 
-.text-secondpage {
+.text-45 {
     width: 45%;
     height: 250px;
     background-color: lightgrey;
@@ -147,11 +151,8 @@ section.jumbotron {
     /* Inizio terza pagina */
 
 .thirdpage div.card {
-    float: left;
-    width: 33.33%;
     height: 400px;
     margin: 0px 0 50px;
-    border: 1px solid black;
 }
 
 .topcard {
@@ -164,6 +165,47 @@ section.jumbotron {
     width: 100%;
     height: 60%;
     background-color: lightseagreen;
+}
+    /* Fine terza pagina */
+
+    /* Inizio quarta pagina */
+
+div.sponsor {
+    width: calc(100vw - (100vw - 100%));
+}
+
+div.sponsor > div {
+    width: 33.33%;
+    height: calc(100vw / 3.33);
+}
+
+.sponsor .left-sponsor {
+    background-color: lightblue;
+}
+
+.sponsor .left-sponsor div {
+    height: 50%;
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+}
+
+.sponsor .central-sponsor {
+    background-color: lightpink;
+}
+
+.sponsor .right-sponsor {
+    background-color: lightslategray;
+}
+
+.sponsor .right-sponsor div {
+    height: 50%;
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+}
+
+.box-img.fourthpage {
 }
 
 /* Fine regole main */
