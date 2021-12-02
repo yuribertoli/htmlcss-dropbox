@@ -95,10 +95,11 @@ header a img {
 
 /* Inizio regole jumbotron */
 section.jumbotron {
+    margin-top: 70px;
     width: 100%;
     height: 500px;
     float: left;
-    background-color: lightgreen;
+    background-color: rgba(180,208,231,255);
 }
 
 .jumbotron div.container {
@@ -253,6 +254,10 @@ div.sponsor > div {
 /* Fine regole main */
 
 /* Inizio regole footer */
+footer nav {
+    display: block;
+}
+
 footer {
     background-color: yellow;
     width: 100%;
