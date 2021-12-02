@@ -38,6 +38,7 @@ ul {
 nav ul li {
     display: inline-block;
     margin: 0 20px;
+    position: relative;
 }
 
 nav ul li a {
@@ -71,6 +72,8 @@ header {
     left: 0;
     top: 0;
     height: 70px;
+    border-bottom: 2px solid white;
+    box-sizing: content-box;
 }
 
 header div {
@@ -96,6 +99,51 @@ header div {
 header a img {
     vertical-align: middle;
 }
+    /* Sottomenu header */
+.undermenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: -70px;
+    width: 100%;
+    min-width: 90px;
+    max-width: 130px;
+}
+
+header nav ul li:hover .undermenu {
+    display: block;
+}
+
+.undermenu a {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    text-align: left;
+    background-color: rgb(226, 225, 225);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.undermenu a:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+.first-undermenu {
+    border-top: 2px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.last-undermenu {
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+header nav ul li:hover a.btn {
+    box-shadow: inset 0px -4px 0px 0px blue;
+}
+
 /* Fine regole header */
 
 /* Inizio regole jumbotron */
@@ -154,6 +202,7 @@ section.jumbotron {
 /* Inizio regole main */
 
     /* Inizio prima pagina */
+    /* Top */
 .top-firstpage {
     width: 100%;
     margin-top: 200px;
@@ -164,6 +213,7 @@ section.jumbotron {
     margin-bottom: 40px;
 }
 
+    /* Fatturazione */
 .top-firstpage input {
     margin: 0 0 0 10px;
 }
@@ -172,6 +222,7 @@ section.jumbotron {
     font-size: 0.9rem;
 }
 
+    /* Div piani tariffari */
 .central-firstpage div {
     margin: 40px 0 50px;
     height: auto;
@@ -186,13 +237,15 @@ div.options div.content-options {
 
 .central-firstpage div span.users-option {
     display: block;
-    padding: 10px 0;    
+    padding: 10px 0;
+    border: 1px solid rgb(196, 194, 194);    
 }
 
 .content-options {
     padding: 20px 20px 80px 20px;
 } 
 
+    /* Titolo Professional, Standard o Advanced */
 .content-options h3 {
     font-size: 1.5rem;
 }
@@ -201,6 +254,7 @@ div.options div.content-options {
     display: block;
 }
 
+    /* Prezzi */
 .prices {
     margin: 15px 0 5px;
     font-weight: bold;
@@ -235,11 +289,13 @@ ul.first-list .pencil{
     list-style-image: url('img/pencil-alt-solid.svg');
 }
 
+    /* Pulsante blu */
 .content-options a.button {
     display: inline-block;
     margin: 40px 0 20px;
 }
 
+    /* Acquista ora */
 .content-options span.buynow {
     font-size: 0.8rem;
 }
@@ -248,12 +304,14 @@ ul.first-list .pencil{
     color: blue;
 }
 
+    /* Linea di separazione */
 .content-options hr {
     width: 20%;
     margin: 20px 0;
     color: rgb(196, 194, 194);
 }
 
+    /* Punti salienti del piano */
 .content-options h4 {
     margin-bottom: 20px;
 }
