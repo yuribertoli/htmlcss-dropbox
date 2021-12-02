@@ -25,6 +25,38 @@ html {
     height: 200px;
     border: 1px solid black;
 }
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
 /* Fine regole generali */
 
 /* Inizio regole header */
@@ -33,7 +65,7 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    height: 100px;
+    height: 70px;
 }
 
 header div {
@@ -43,19 +75,21 @@ header div {
     line-height: 100%;
 }
 
-.left-header {
+.left-header, .right-header {
     float: left;
-    background-color: lightcoral;
+    background-color: white;
+    height: 100%;
+    line-height: 70px;
+    vertical-align: middle;
+    padding: 0 20px;
 }
 
 .right-header {
-    float: right;
-    background-color: lightcyan;
+    text-align: right;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+header a img {
+    vertical-align: middle;
 }
 /* Fine regole header */
 
@@ -241,5 +275,7 @@ footer .bottom-page {
     height: 100px;
     background-color: lightcoral;
 }
+    /* Fine quinta pagina */
+
 /* Fine regole footer */
 
