@@ -462,6 +462,8 @@ main div.row33 div.card.option2 {
     margin: 30px 0 50px;
     color: blue;
 }
+
+    /* Quadrati sponsor */
 div.sponsor {
     width: calc(100vw - (100vw - 100%));
 }
@@ -473,6 +475,13 @@ div.sponsor > div {
 
 .sponsor .left-sponsor {
     background-color: lightblue;
+}
+
+.sponsor img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
 }
 
 .sponsor .left-sponsor div {
