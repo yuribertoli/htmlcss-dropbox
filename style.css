@@ -478,10 +478,11 @@ div.sponsor > div {
 }
 
 .sponsor img {
+    filter: brightness(0) invert(1);
     height: 100%;
     width: 100%;
     object-fit: contain;
-    padding: 10px;
+    padding: 20%;
 }
 
 .sponsor .left-sponsor div {
