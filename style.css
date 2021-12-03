@@ -594,6 +594,7 @@ div.central-sponsor img {
 
 .faq div:hover i.fas {
     transform: rotate(180deg);
+    transition: 300ms linear all;
 }
 
 #top-faq {
