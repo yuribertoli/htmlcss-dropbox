@@ -611,6 +611,10 @@ footer .list-footer li {
     display: block;
 }
 
+.list-footer li a:hover {
+    text-decoration: underline;
+}
+
 .list-footer li a {
     color: white;
     padding: 3px 0;
