@@ -421,7 +421,7 @@ span.text-bottom-firstpage {
     /* Fine seconda pagina */
 
     /* Inizio terza pagina */
-
+    /* 6 colonne */
 main div.row33 div.card.option2 {
     margin-top: 0;
 }    
@@ -450,7 +450,18 @@ main div.row33 div.card.option2 {
     /* Fine terza pagina */
 
     /* Inizio quarta pagina */
+    /* Titolo */
+   
+.title-half-width h2 {
+    width: 60%;
+    font-size: 2.5rem;
+}
 
+.title-half-width a {
+    display: block;
+    margin: 30px 0 50px;
+    color: blue;
+}
 div.sponsor {
     width: calc(100vw - (100vw - 100%));
 }
