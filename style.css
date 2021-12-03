@@ -473,10 +473,6 @@ div.sponsor > div {
     height: calc(100vw / 3.33);
 }
 
-.sponsor .left-sponsor {
-    background-color: lightblue;
-}
-
 .sponsor img {
     filter: brightness(0) invert(1);
     height: 100%;
@@ -489,22 +485,16 @@ div.sponsor > div {
     height: 50%;
     width: 50%;
     float: left;
-    border: 1px solid black;
 }
 
 .sponsor .central-sponsor {
     background-color: lightpink;
 }
 
-.sponsor .right-sponsor {
-    background-color: lightslategray;
-}
-
 .sponsor .right-sponsor div {
     height: 50%;
     width: 50%;
     float: left;
-    border: 1px solid black;
 }
 
 .box-img.fourthpage {
