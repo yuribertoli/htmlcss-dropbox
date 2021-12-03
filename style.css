@@ -485,6 +485,29 @@ div.sponsor > div {
     object-fit: contain;
     padding: 20%;
 }
+
+div.central-sponsor img {
+    filter: none;
+    padding: 0 20%;
+}
+
+.top-central-sponsor {
+    width: 40%;
+    height: 40%;
+}
+
+.top-central-sponsor hr {
+    margin-top: -20%;
+    margin-left: 20%;
+    width: 25%;
+    border: 1px solid rgb(199, 198, 198);
+}
+
+.bottom-part-sponsor {
+    padding: 0 8%;
+    font-size: 0.9rem;
+}
+
     /* Prova sfondo */
 /* div.sponsor div { 
     -moz-box-shadow:    inset 0 0 10px #000000;
