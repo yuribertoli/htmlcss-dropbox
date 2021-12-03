@@ -58,12 +58,24 @@ nav ul li a {
     text-decoration: none;
 }
 
+.button:hover {
+    -moz-box-shadow:    inset 0 0 5px black;
+    -webkit-box-shadow: inset 0 0 5px black;
+    box-shadow:         inset 0 0 5px black;
+}
+
 .button.button-white {
     background-color: white;
     color: black;
     padding: 5px 15px;
     text-decoration: none;
     border: 1px solid black;
+}
+
+.button.button-white:hover {
+    -moz-box-shadow:    inset 0 0 2px #000000;
+    -webkit-box-shadow: inset 0 0 2px #000000;
+    box-shadow:         inset 0 0 2px #000000;
 }
 
 .container {
@@ -116,7 +128,7 @@ header a img {
     display: none;
     position: absolute;
     left: 0;
-    bottom: -70px;
+    top: 70px;
     width: 100%;
     min-width: 90px;
     max-width: 130px;
