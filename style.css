@@ -58,6 +58,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+.button.button-white {
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -375,6 +383,7 @@ span.text-bottom-firstpage {
     /* Fine prima pagina */
 
     /* Inizio seconda pagina */
+    /* Immagine con testo a destra */
 .secondpage {
     margin: 100px 0;
 }
@@ -385,16 +394,25 @@ span.text-bottom-firstpage {
 
 .img-55 {
     width: 55%;
-    height: 250px;
-    background-color: lightskyblue;
+    height: 550px;
+}
+
+.img-55 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .text-45 {
     width: 45%;
-    height: 250px;
-    background-color: lightgrey;
+    padding: 4%;
 }
 
+.text-45 span {
+    display: block;
+    margin: 30px 0;
+}
+    /* Titolo 6 colonne */
 .secondpage .title-allpage {
     width: 100%;
     height: 100px;
