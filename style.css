@@ -592,6 +592,10 @@ div.central-sponsor img {
     display: block;
 }
 
+.faq div:hover i.fas {
+    transform: rotate(180deg);
+}
+
 #top-faq {
     border-top: 2px solid lightgrey;
 }
