@@ -394,7 +394,6 @@ span.text-bottom-firstpage {
 
 .img-55 {
     width: 55%;
-    height: 550px;
 }
 
 .img-55 img {
@@ -506,6 +505,8 @@ div.central-sponsor img {
 .bottom-part-sponsor {
     padding: 0 8%;
     font-size: 0.9rem;
+    word-wrap: break-word;
+    overflow-y: auto;
 }
 
     /* Prova sfondo */
@@ -536,6 +537,27 @@ div.central-sponsor img {
 }
 
 .box-img.fourthpage {
+}
+
+    /* Titoli sotto sponsor */
+.fourthpage {
+    background-color: #b4d0e7;
+}  
+
+.fourthpage .img-55 {
+    padding: 150px 0px 150px 250px;
+    color: #61082b;
+    font-size: 1.6rem;
+}
+
+.fourthpage .text-45 {
+    margin-top: 110px;
+    padding-left: 80px;
+}
+
+.fourthpage .text-45 a {
+    border: none;
+    padding: 5px 50px;
 }
     /* Fine quarta pagina */
 
