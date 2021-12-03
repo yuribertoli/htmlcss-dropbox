@@ -339,8 +339,38 @@ ul.second-list li span{
     /* Div 100% in fondo a tre colonne */
 .bottom-firstpage {
     width: 100%;
-    height: 100px;
-    background-color: lightgreen;
+    height: auto;
+    border: 2px solid rgb(196, 194, 194);
+}
+
+.bottom-firstpage .content-options {
+    padding-bottom: 30px;
+}
+
+main .bottom-firstpage .options {
+    text-align: center;
+}
+
+.bottom-firstpage .content-options h3 {
+    display: inline;
+}
+
+.bottom-firstpage .content-options a.button {
+    margin: 0;
+    font-size: 1rem;
+    padding: 5px 30px;
+    float: right;
+}
+
+.bottom-firstpage .options > span {
+    display: block;
+    border-bottom: 2px solid rgb(196, 194, 194);
+    padding: 10px 0;
+}
+
+span.text-bottom-firstpage {
+    margin-top: 30px;
+    color: black;
 }
     /* Fine prima pagina */
 
@@ -374,6 +404,10 @@ ul.second-list li span{
     /* Fine seconda pagina */
 
     /* Inizio terza pagina */
+
+main div.row33 div.card.option2 {
+    margin-top: 0;
+}    
 
 .thirdpage div.card {
     height: 400px;
