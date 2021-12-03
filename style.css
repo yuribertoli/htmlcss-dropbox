@@ -545,13 +545,13 @@ div.central-sponsor img {
 }  
 
 .fourthpage .img-55 {
-    padding: 150px 0px 150px 250px;
+    padding: 130px 0px 150px 250px;
     color: #61082b;
     font-size: 1.6rem;
 }
 
 .fourthpage .text-45 {
-    margin-top: 110px;
+    margin-top: 90px;
     padding-left: 80px;
 }
 
@@ -561,13 +561,30 @@ div.central-sponsor img {
 }
     /* Fine quarta pagina */
 
-    /* Inizio quinta pagina */
-
+    /* Inizio quinta pagina */   
 .faq {
-    height: 400px;
     margin: 80px 0;
-    background-color: lightcyan;
 }    
+
+.faq h3 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.faq div {
+    height: 80px;
+    line-height: 78px;
+    vertical-align: middle;
+    border-bottom: 2px solid lightgrey;
+}
+
+#top-faq {
+    border-top: 2px solid lightgrey;
+}
+
+.chevron-down {
+    float: right;
+}
 /* Fine regole main */
 
 /* Inizio regole footer */
