@@ -464,6 +464,11 @@ main div.row33 div.card.option2 {
 }
 
     /* Quadrati sponsor */
+
+div.left-sponsor, div.central-sponsor, div.right-sponsor {
+    border: none;
+}  
+
 div.sponsor {
     width: calc(100vw - (100vw - 100%));
 }
@@ -479,6 +484,16 @@ div.sponsor > div {
     width: 100%;
     object-fit: contain;
     padding: 20%;
+}
+    /* Prova sfondo */
+/* div.sponsor div { 
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+} */
+
+#different-border {
+    box-shadow:         inset 0 0 0 15px #d0e9cd;
 }
 
 .sponsor .left-sponsor div {
