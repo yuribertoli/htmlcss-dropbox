@@ -415,9 +415,8 @@ span.text-bottom-firstpage {
     /* Titolo 6 colonne */
 .secondpage .title-allpage {
     width: 100%;
-    height: 100px;
     margin: 100px 0 0;
-    background-color: lightblue;
+    font-size: 1.7rem;
 }
     /* Fine seconda pagina */
 
@@ -428,14 +427,19 @@ main div.row33 div.card.option2 {
 }    
 
 .thirdpage div.card {
-    height: 400px;
+    height: 600px;
     margin: 0px 0 50px;
 }
 
 .topcard {
     width: 100%;
     height: 40%;
-    background-color: lightskyblue;
+}
+
+.topcard img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .bottomcard {
