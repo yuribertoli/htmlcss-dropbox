@@ -505,8 +505,9 @@ div.central-sponsor img {
 .bottom-part-sponsor {
     padding: 0 8%;
     font-size: 0.9rem;
-    word-wrap: break-word;
-    overflow-y: auto;
+    overflow: auto;
+    height: 60%;
+    width: 100%;
 }
 
     /* Prova sfondo */
@@ -534,9 +535,6 @@ div.central-sponsor img {
     height: 50%;
     width: 50%;
     float: left;
-}
-
-.box-img.fourthpage {
 }
 
     /* Titoli sotto sponsor */
@@ -594,7 +592,7 @@ div.central-sponsor img {
 
 .faq div:hover i.fas {
     transform: rotate(180deg);
-    transition: 300ms linear all;
+    transition: 600ms linear all;
 }
 
 #top-faq {
