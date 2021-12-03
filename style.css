@@ -652,6 +652,12 @@ footer .bottom-page {
     font-size: 0.8rem;
     color: grey;
 }
+
+.bottom-page select {
+    background-color: transparent;
+    border: none;
+    color: grey;
+}
     /* Fine quinta pagina */
 
 /* Fine regole footer */
