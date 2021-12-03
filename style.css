@@ -21,9 +21,13 @@ html {
 
 .row33 > div {
     float: left;
-    width: 33.33%;
+    width: 30%;
     height: 200px;
     border: 1px solid black;
+}
+
+div.row33 div.option2 {
+    margin: 40px 5% 0;
 }
 
 nav {
