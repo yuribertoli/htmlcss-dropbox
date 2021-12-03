@@ -573,16 +573,30 @@ div.central-sponsor img {
 
 .faq div {
     height: 80px;
-    line-height: 78px;
-    vertical-align: middle;
+    padding-top: 30px;
     border-bottom: 2px solid lightgrey;
+}
+
+.faq div:hover {
+    height: 160px;
+}
+
+.faq div div.undermenu-faq {
+    display: none;
+    width: 60%;
+    border: none;
+    padding: 15px 0 0 5px;
+}
+
+.faq div:hover div.undermenu-faq {
+    display: block;
 }
 
 #top-faq {
     border-top: 2px solid lightgrey;
 }
 
-.chevron-down {
+span.chevron-down {
     float: right;
 }
 /* Fine regole main */
